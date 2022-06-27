@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { getUsersByEmail, updateUserById } from "../../../api/libraries/apiLibraries";
-import { useGlobalUserContext, UserContext } from "../../../util/UserContext";
+import { updateUserById } from "../../../api/libraries/apiLibraries";
+import { useGlobalUserContext, UserContext } from "../../../context/UserContext";
 
 
 
